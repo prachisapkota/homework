@@ -1,9 +1,8 @@
-input("name")
-int(input("age"))
-x=int(input("first number"))
-y=int(input("second number"))
-sum=x+y
-sub=x-y
-product=x*y
-div=(x/y)
-print("sum=%d\nsub=%d\nproduct=%d\ndiv=%.2f"%(sum,sub,product,div))
+2math=int(input("marks for math"))
+science=int(input("marks for science"))
+computer=int(input("marks for computer"))
+health=int(input("marks for health"))
+account=int(input("marks for account"))
+list=[math,science,computer,health,account]
+print(sum(list))
+
