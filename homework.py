@@ -24,9 +24,12 @@ elif marks >=70 and marks <90:
 elif marks >=40 and marks <70:
     print("you got C")
 elif marks >=0 and marks <40:
-    print("you are fail")'''
+    print("you are fail")
+else:
+    print("sorry, wrong input number")
+    
 
-'''value=int(input("enter a value"))
+value=int(input("enter a value"))
 if value==0:
     print("it is zero")
 elif value%2==0:
@@ -42,21 +45,34 @@ if year%4==0 and year % 100 !=0:
 else:
     print("year is not a leap year")'''
 
-name=str(input("enter your name"))
-age=int(input("enter your age"))
-if age >18:
+'''name=str(input("enter your name"))
+if name.isalpha()==True and len(name)>3:
+    print("valid name")
+else:
+    sys.exit("OOPS! Invalid name")
+phonenum=input("enter you phnnumber")
+if phonenum.isdigit()==True and len (phonenum)==10:
+    print("valid phone number")
+else:
+    sys.exit("OOPS!Invalid phone num")
+age=input("enter your age")
+if age.isdigit()==True and int(age)>=18:
     print("it is valid")
 else:
-    print("it is not valid")
-number=int(input("enter your mobile number"))
+    print("it is not valid")'''
 
-
-
-
-
-
-
-
+'''length1=int(input("enter the first side:"))
+length2=int(input("enter the second side:"))
+length3=int(input("enter the third side:"))
+length4=int(input("enter the fourth side:"))
+if length1==length2==length3==length4:
+    print("it is a square")
+elif length2==length1 and length3==length4 and length1==length3 and length2==length4:
+    print("it is a rectangle")
+elif length3==length1 and length2==length4 and length1==length4 and length2==length3:
+    print("it is a kite")
+else:
+    print("it is a quadrilateral")'''
 
 
 
