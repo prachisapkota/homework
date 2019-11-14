@@ -16,9 +16,14 @@ number=int(input("enter the number you want to remove"))
 list.pop(number)
 print(list)'''
 
-numbers=input("enter the numbers")
-for numbers in range(1,11):
-    print [list(numbers )]
+x=1
+list=[]
+for x in range(1,11,1):
+    num1=input("enter the number")
+    list.append(int(num1))
+    list.sort()
+    print(list)
+    print("The list is obtained")
 
 
 
